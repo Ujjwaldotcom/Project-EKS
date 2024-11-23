@@ -1,6 +1,4 @@
-# Sample App deployment
-
-## Copy the deploy.yml to your local and save it with name deploy.yml
+# App deployment
 
 ```
 apiVersion: apps/v1
@@ -40,14 +38,14 @@ spec:
         kubernetes.io/os: linux
 ```
 
-## Deploy the app
+## Deploying the app
 
 ```
 kubectl apply -f deploy.yaml
 ```
 
 
-## Copy the below file as service.yml
+## service.yml
 
 ```
 apiVersion: v1
